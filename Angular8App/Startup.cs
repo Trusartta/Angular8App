@@ -67,6 +67,7 @@ namespace Angular8App
 
                 if (env.IsDevelopment())
                 {
+                    
                     spa.UseAngularCliServer(npmScript: "start");
                 }
             });
